@@ -1,0 +1,11 @@
+/home/sam/CSE180/build/final/CMakeFiles/install/strip.dir
+/home/sam/CSE180/build/final/CMakeFiles/install/local.dir
+/home/sam/CSE180/build/final/CMakeFiles/testnavigation.dir
+/home/sam/CSE180/build/final/CMakeFiles/edit_cache.dir
+/home/sam/CSE180/build/final/CMakeFiles/test.dir
+/home/sam/CSE180/build/final/CMakeFiles/final.dir
+/home/sam/CSE180/build/final/CMakeFiles/install.dir
+/home/sam/CSE180/build/final/CMakeFiles/list_install_components.dir
+/home/sam/CSE180/build/final/CMakeFiles/rebuild_cache.dir
+/home/sam/CSE180/build/final/CMakeFiles/final_uninstall.dir
+/home/sam/CSE180/build/final/CMakeFiles/uninstall.dir
