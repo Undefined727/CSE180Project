@@ -1,0 +1,68 @@
+[0.033s] Invoking command in '/root/CSE180Project/src/final/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /root/CSE180Project/src/final -DCMAKE_INSTALL_PREFIX=/root/CSE180Project/src/final/install/final
+[0.130s] -- The C compiler identification is GNU 9.4.0
+[0.216s] -- The CXX compiler identification is GNU 9.4.0
+[0.224s] -- Check for working C compiler: /usr/bin/cc
+[0.333s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.334s] -- Detecting C compiler ABI info
+[0.453s] -- Detecting C compiler ABI info - done
+[0.477s] -- Detecting C compile features
+[0.477s] -- Detecting C compile features - done
+[0.482s] -- Check for working CXX compiler: /usr/bin/c++
+[0.611s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.612s] -- Detecting CXX compiler ABI info
+[0.743s] -- Detecting CXX compiler ABI info - done
+[0.767s] -- Detecting CXX compile features
+[0.768s] -- Detecting CXX compile features - done
+[0.782s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.840s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.840s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.324s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.473s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.501s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.524s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[3.020s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[3.086s] -- Found FastRTPS: /opt/ros/foxy/include  
+[3.264s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.399s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[3.402s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.404s] -- Looking for pthread.h
+[3.527s] -- Looking for pthread.h - found
+[3.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.651s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[3.651s] -- Looking for pthread_create in pthreads
+[3.749s] -- Looking for pthread_create in pthreads - not found
+[3.750s] -- Looking for pthread_create in pthread
+[3.862s] -- Looking for pthread_create in pthread - found
+[3.864s] -- Found Threads: TRUE  
+[4.276s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[4.365s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[4.545s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[5.207s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[5.300s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[5.332s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[5.535s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.551s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.551s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/CSE180Project/src/final/include>
+[5.551s] -- Configured cppcheck exclude dirs and/or files: 
+[5.566s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[5.566s] -- Configured cpplint exclude dirs and/or files: 
+[5.573s] -- Added test 'lint_cmake' to check CMake code style
+[5.591s] -- Added test 'uncrustify' to check C / C++ code style
+[5.591s] -- Configured uncrustify additional arguments: 
+[5.593s] -- Added test 'xmllint' to check XML markup files
+[5.604s] -- Configuring done
+[5.606s] CMake Error at CMakeLists.txt:44 (add_executable):
+[5.606s]   Cannot find source file:
+[5.606s] 
+[5.606s]     src/receieve.cpp
+[5.606s] 
+[5.607s]   Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+[5.607s]   .hpp .hxx .in .txx
+[5.607s] 
+[5.607s] 
+[5.609s] CMake Error at CMakeLists.txt:44 (add_executable):
+[5.609s]   No SOURCES given to target: receive
+[5.609s] 
+[5.610s] 
+[5.610s] CMake Generate step failed.  Build files cannot be regenerated correctly.
+[5.623s] Invoked command in '/root/CSE180Project/src/final/build/final' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /root/CSE180Project/src/final -DCMAKE_INSTALL_PREFIX=/root/CSE180Project/src/final/install/final

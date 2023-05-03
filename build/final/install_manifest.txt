@@ -1,3 +1,4 @@
+/root/CSE180Project/install/final/lib/final/receive
 /root/CSE180Project/install/final/share/final/environment/library_path.sh
 /root/CSE180Project/install/final/share/final/environment/library_path.dsv
 /root/CSE180Project/install/final/include/final/navigation.hpp

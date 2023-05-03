@@ -168,6 +168,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named receive
+
+# Build rule for target.
+receive: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 receive
+.PHONY : receive
+
+# fast build rule for target.
+receive/fast:
+	$(MAKE) -f CMakeFiles/receive.dir/build.make CMakeFiles/receive.dir/build
+.PHONY : receive/fast
+
+#=============================================================================
 # Target rules for targets named testnavigation
 
 # Build rule for target.
@@ -249,6 +262,33 @@ src/navigation.cpp.s:
 	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/src/navigation.cpp.s
 .PHONY : src/navigation.cpp.s
 
+src/receive.o: src/receive.cpp.o
+
+.PHONY : src/receive.o
+
+# target to build an object file
+src/receive.cpp.o:
+	$(MAKE) -f CMakeFiles/receive.dir/build.make CMakeFiles/receive.dir/src/receive.cpp.o
+.PHONY : src/receive.cpp.o
+
+src/receive.i: src/receive.cpp.i
+
+.PHONY : src/receive.i
+
+# target to preprocess a source file
+src/receive.cpp.i:
+	$(MAKE) -f CMakeFiles/receive.dir/build.make CMakeFiles/receive.dir/src/receive.cpp.i
+.PHONY : src/receive.cpp.i
+
+src/receive.s: src/receive.cpp.s
+
+.PHONY : src/receive.s
+
+# target to generate assembly for a file
+src/receive.cpp.s:
+	$(MAKE) -f CMakeFiles/receive.dir/build.make CMakeFiles/receive.dir/src/receive.cpp.s
+.PHONY : src/receive.cpp.s
+
 src/testnavigator.o: src/testnavigator.cpp.o
 
 .PHONY : src/testnavigator.o
@@ -284,6 +324,7 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... install/local"
+	@echo "... receive"
 	@echo "... testnavigation"
 	@echo "... edit_cache"
 	@echo "... test"
@@ -296,6 +337,9 @@ help:
 	@echo "... src/navigation.o"
 	@echo "... src/navigation.i"
 	@echo "... src/navigation.s"
+	@echo "... src/receive.o"
+	@echo "... src/receive.i"
+	@echo "... src/receive.s"
 	@echo "... src/testnavigator.o"
 	@echo "... src/testnavigator.i"
 	@echo "... src/testnavigator.s"

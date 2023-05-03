@@ -24,6 +24,7 @@ find_package(nav2_msgs REQUIRED)
 find_package(rclcpp_action REQUIRED)
 find_package(lifecycle_msgs REQUIRED)
 find_package(action_msgs REQUIRED)
+find_package(sensor_msgs REQUIRED)
 
 
 if(BUILD_TESTING)
@@ -39,7 +40,13 @@ endif()
 
 
 add_library(final src/navigation.cpp)
+
 add_executable(testnavigation src/testnavigator.cpp src/navigation.cpp)
+add_executable(receive src/receive.cpp)
+
+ament_target_dependencies(receive rclcpp sensor_msgs)
+
+install(TARGETS receive DESTINATION lib/${PROJECT_NAME})
 
 target_include_directories(final
   PUBLIC
@@ -50,6 +57,7 @@ target_include_directories(testnavigation
   PUBLIC
     $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
     $<INSTALL_INTERFACE:include>)
+
 
 
 

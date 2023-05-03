@@ -1,5 +1,6 @@
 /root/CSE180Project/build/final/CMakeFiles/install/strip.dir
 /root/CSE180Project/build/final/CMakeFiles/install/local.dir
+/root/CSE180Project/build/final/CMakeFiles/receive.dir
 /root/CSE180Project/build/final/CMakeFiles/testnavigation.dir
 /root/CSE180Project/build/final/CMakeFiles/edit_cache.dir
 /root/CSE180Project/build/final/CMakeFiles/test.dir

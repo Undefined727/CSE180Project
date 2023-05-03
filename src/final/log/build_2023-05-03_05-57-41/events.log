@@ -1,0 +1,130 @@
+[0.000000] (-) TimerEvent: {}
+[0.000331] (final) JobQueued: {'identifier': 'final', 'dependencies': OrderedDict()}
+[0.000892] (final) JobStarted: {'identifier': 'final'}
+[0.032133] (final) JobProgress: {'identifier': 'final', 'progress': 'cmake'}
+[0.032548] (final) Command: {'cmd': ['/usr/bin/cmake', '/root/CSE180Project/src/final', '-DCMAKE_INSTALL_PREFIX=/root/CSE180Project/src/final/install/final'], 'cwd': '/root/CSE180Project/src/final/build/final', 'env': OrderedDict([('MALIPUT_MALIDRIVE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_malidrive'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('MULTILANE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_multilane'), ('HOSTNAME', 'thinkshit'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/CSE180Project/install/final/lib:/root/MRTP/MRTP/install/navigation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/CSE180Project'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/CSE180Project/install:/root/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin/maliput_malidrive/applications:/opt/ros/foxy/bin/maliput_malidrive:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/CSE180Project/install/final:/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/gazeboenvs:/root/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'teletype'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ASAN_OPTIONS', ':detect_odr_violation=0::detect_odr_violation=0:detect_odr_violation=0'), ('PWD', '/root/CSE180Project/src/final/build/final'), ('MALIPUT_PLUGIN_PATH', '/opt/ros/foxy/lib/maliput_plugins'), ('PYTHONPATH', '/root/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/CSE180Project/install/final:/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/examples:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[0.099773] (-) TimerEvent: {}
+[0.130697] (final) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.199779] (-) TimerEvent: {}
+[0.216994] (final) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.224871] (final) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.299878] (-) TimerEvent: {}
+[0.333706] (final) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.335217] (final) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.400005] (-) TimerEvent: {}
+[0.453835] (final) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.477732] (final) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.478290] (final) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.482815] (final) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.500114] (-) TimerEvent: {}
+[0.600576] (-) TimerEvent: {}
+[0.611498] (final) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.613346] (final) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.700682] (-) TimerEvent: {}
+[0.743465] (final) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.767798] (final) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.768877] (final) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.783108] (final) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.800781] (-) TimerEvent: {}
+[0.840740] (final) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.840979] (final) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.900879] (-) TimerEvent: {}
+[1.001203] (-) TimerEvent: {}
+[1.101529] (-) TimerEvent: {}
+[1.201844] (-) TimerEvent: {}
+[1.302145] (-) TimerEvent: {}
+[1.324565] (final) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.402232] (-) TimerEvent: {}
+[1.473656] (final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.501685] (final) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.502302] (-) TimerEvent: {}
+[1.525386] (final) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[1.602413] (-) TimerEvent: {}
+[1.702736] (-) TimerEvent: {}
+[1.803041] (-) TimerEvent: {}
+[1.903388] (-) TimerEvent: {}
+[2.003779] (-) TimerEvent: {}
+[2.104290] (-) TimerEvent: {}
+[2.204569] (-) TimerEvent: {}
+[2.304869] (-) TimerEvent: {}
+[2.405185] (-) TimerEvent: {}
+[2.505534] (-) TimerEvent: {}
+[2.605873] (-) TimerEvent: {}
+[2.706209] (-) TimerEvent: {}
+[2.806489] (-) TimerEvent: {}
+[2.906778] (-) TimerEvent: {}
+[3.007074] (-) TimerEvent: {}
+[3.020798] (final) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[3.087369] (final) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[3.107322] (-) TimerEvent: {}
+[3.207638] (-) TimerEvent: {}
+[3.264448] (final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.307727] (-) TimerEvent: {}
+[3.400011] (final) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[3.403004] (final) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[3.404937] (final) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[3.407813] (-) TimerEvent: {}
+[3.508074] (-) TimerEvent: {}
+[3.528283] (final) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[3.528747] (final) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[3.608169] (-) TimerEvent: {}
+[3.651972] (final) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[3.652308] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[3.708277] (-) TimerEvent: {}
+[3.750239] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[3.750995] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[3.808386] (-) TimerEvent: {}
+[3.863271] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[3.865189] (final) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.908481] (-) TimerEvent: {}
+[4.008851] (-) TimerEvent: {}
+[4.109189] (-) TimerEvent: {}
+[4.209496] (-) TimerEvent: {}
+[4.276931] (final) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[4.309574] (-) TimerEvent: {}
+[4.365943] (final) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[4.409699] (-) TimerEvent: {}
+[4.510062] (-) TimerEvent: {}
+[4.545425] (final) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[4.610154] (-) TimerEvent: {}
+[4.710483] (-) TimerEvent: {}
+[4.810874] (-) TimerEvent: {}
+[4.911286] (-) TimerEvent: {}
+[5.011573] (-) TimerEvent: {}
+[5.111876] (-) TimerEvent: {}
+[5.208409] (final) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[5.211958] (-) TimerEvent: {}
+[5.300757] (final) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[5.312105] (-) TimerEvent: {}
+[5.333044] (final) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[5.412216] (-) TimerEvent: {}
+[5.512556] (-) TimerEvent: {}
+[5.536431] (final) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[5.551424] (final) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[5.552165] (final) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/CSE180Project/src/final/include>\n'}
+[5.552313] (final) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[5.567191] (final) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[5.567364] (final) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[5.574106] (final) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.591406] (final) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[5.591643] (final) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[5.594373] (final) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.605354] (final) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.606833] (final) StderrLine: {'line': b'CMake Error at CMakeLists.txt:44 (add_executable):\n'}
+[5.607065] (final) StderrLine: {'line': b'  Cannot find source file:\n'}
+[5.607211] (final) StderrLine: {'line': b'\n'}
+[5.607345] (final) StderrLine: {'line': b'    src/receieve.cpp\n'}
+[5.607476] (final) StderrLine: {'line': b'\n'}
+[5.607591] (final) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm\n'}
+[5.607709] (final) StderrLine: {'line': b'  .hpp .hxx .in .txx\n'}
+[5.607825] (final) StderrLine: {'line': b'\n'}
+[5.607991] (final) StderrLine: {'line': b'\n'}
+[5.610059] (final) StderrLine: {'line': b'CMake Error at CMakeLists.txt:44 (add_executable):\n'}
+[5.610183] (final) StderrLine: {'line': b'  No SOURCES given to target: receive\n'}
+[5.610334] (final) StderrLine: {'line': b'\n'}
+[5.610606] (final) StderrLine: {'line': b'\n'}
+[5.610728] (final) StderrLine: {'line': b'CMake Generate step failed.  Build files cannot be regenerated correctly.\n'}
+[5.612672] (-) TimerEvent: {}
+[5.623104] (final) CommandEnded: {'returncode': 1}
+[5.668945] (final) JobEnded: {'identifier': 'final', 'rc': 1}
+[5.679725] (-) EventReactorShutdown: {}
