@@ -1,0 +1,304 @@
+[0.000000] (-) TimerEvent: {}
+[0.000167] (final) JobQueued: {'identifier': 'final', 'dependencies': OrderedDict()}
+[0.001236] (final) JobStarted: {'identifier': 'final'}
+[0.021044] (final) JobProgress: {'identifier': 'final', 'progress': 'cmake'}
+[0.021597] (final) Command: {'cmd': ['/usr/bin/cmake', '/root/CSE180Project/src/final', '-DCMAKE_INSTALL_PREFIX=/root/CSE180Project/install/final'], 'cwd': '/root/CSE180Project/build/final', 'env': OrderedDict([('MALIPUT_MALIDRIVE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_malidrive'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('MULTILANE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_multilane'), ('HOSTNAME', 'thinkshit'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/MRTP/MRTP/install/navigation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/CSE180Project/src/final'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin/maliput_malidrive/applications:/opt/ros/foxy/bin/maliput_malidrive:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/gazeboenvs:/root/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'teletype'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ASAN_OPTIONS', ':detect_odr_violation=0::detect_odr_violation=0:detect_odr_violation=0'), ('PWD', '/root/CSE180Project/build/final'), ('TURTLEBOT3_MODEL', 'waffle'), ('MALIPUT_PLUGIN_PATH', '/opt/ros/foxy/lib/maliput_plugins'), ('PYTHONPATH', '/root/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/examples:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[0.097970] (final) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.4.0\n'}
+[0.099592] (-) TimerEvent: {}
+[0.167534] (final) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.4.0\n'}
+[0.173067] (final) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.199719] (-) TimerEvent: {}
+[0.266013] (final) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.267044] (final) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299844] (-) TimerEvent: {}
+[0.368412] (final) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.381838] (final) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.382241] (final) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.385133] (final) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.399960] (-) TimerEvent: {}
+[0.491380] (final) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.492628] (final) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.500084] (-) TimerEvent: {}
+[0.599551] (final) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.600188] (-) TimerEvent: {}
+[0.613949] (final) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.614519] (final) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.624309] (final) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.662770] (final) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.662963] (final) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.700324] (-) TimerEvent: {}
+[0.800599] (-) TimerEvent: {}
+[0.900901] (-) TimerEvent: {}
+[1.000456] (final) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[1.000971] (-) TimerEvent: {}
+[1.101233] (-) TimerEvent: {}
+[1.108302] (final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.132982] (final) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[1.149413] (final) StdoutLine: {'line': b'-- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1\n'}
+[1.201402] (-) TimerEvent: {}
+[1.301673] (-) TimerEvent: {}
+[1.402008] (-) TimerEvent: {}
+[1.502391] (-) TimerEvent: {}
+[1.602696] (-) TimerEvent: {}
+[1.702988] (-) TimerEvent: {}
+[1.803292] (-) TimerEvent: {}
+[1.903579] (-) TimerEvent: {}
+[2.003890] (-) TimerEvent: {}
+[2.104256] (-) TimerEvent: {}
+[2.204535] (-) TimerEvent: {}
+[2.277967] (final) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[2.304702] (-) TimerEvent: {}
+[2.329841] (final) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[2.404801] (-) TimerEvent: {}
+[2.465865] (final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.504909] (-) TimerEvent: {}
+[2.567254] (final) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[2.569272] (final) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.570500] (final) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[2.605045] (-) TimerEvent: {}
+[2.665764] (final) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[2.666078] (final) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[2.705185] (-) TimerEvent: {}
+[2.764180] (final) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[2.764497] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[2.805310] (-) TimerEvent: {}
+[2.845494] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[2.845765] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[2.905437] (-) TimerEvent: {}
+[2.943433] (final) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[2.945082] (final) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[3.005536] (-) TimerEvent: {}
+[3.105854] (-) TimerEvent: {}
+[3.165374] (final) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[3.205936] (-) TimerEvent: {}
+[3.209057] (final) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[3.295309] (final) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[3.306010] (-) TimerEvent: {}
+[3.406265] (-) TimerEvent: {}
+[3.506573] (-) TimerEvent: {}
+[3.606873] (-) TimerEvent: {}
+[3.621926] (final) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[3.668942] (final) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[3.686625] (final) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[3.706990] (-) TimerEvent: {}
+[3.807263] (-) TimerEvent: {}
+[3.825560] (final) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[3.827214] (final) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.827659] (final) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/CSE180Project/src/final/include>\n'}
+[3.827833] (final) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.829256] (final) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[3.829434] (final) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[3.830448] (final) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.832091] (final) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.832271] (final) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.832958] (final) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.840220] (final) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.859049] (final) StdoutLine: {'line': b'-- Generating done\n'}
+[3.861440] (final) StdoutLine: {'line': b'-- Build files have been written to: /root/CSE180Project/build/final\n'}
+[3.870448] (final) CommandEnded: {'returncode': 0}
+[3.871258] (final) JobProgress: {'identifier': 'final', 'progress': 'build'}
+[3.872436] (final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/root/CSE180Project/build/final', '--', '-j8', '-l8'], 'cwd': '/root/CSE180Project/build/final', 'env': OrderedDict([('MALIPUT_MALIDRIVE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_malidrive'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('MULTILANE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_multilane'), ('HOSTNAME', 'thinkshit'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/MRTP/MRTP/install/navigation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/CSE180Project/src/final'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin/maliput_malidrive/applications:/opt/ros/foxy/bin/maliput_malidrive:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/gazeboenvs:/root/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'teletype'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ASAN_OPTIONS', ':detect_odr_violation=0::detect_odr_violation=0:detect_odr_violation=0'), ('PWD', '/root/CSE180Project/build/final'), ('TURTLEBOT3_MODEL', 'waffle'), ('MALIPUT_PLUGIN_PATH', '/opt/ros/foxy/lib/maliput_plugins'), ('PYTHONPATH', '/root/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/examples:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[3.907427] (-) TimerEvent: {}
+[3.937202] (final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final\x1b[0m\n'}
+[3.937962] (final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testnavigation\x1b[0m\n'}
+[3.993150] (final) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/final.dir/src/navigation.cpp.o\x1b[0m\n'}
+[4.000101] (final) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o\x1b[0m\n'}
+[4.000319] (final) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/navigation.cpp.o\x1b[0m\n'}
+[4.007517] (-) TimerEvent: {}
+[4.107821] (-) TimerEvent: {}
+[4.208176] (-) TimerEvent: {}
+[4.308481] (-) TimerEvent: {}
+[4.408766] (-) TimerEvent: {}
+[4.509054] (-) TimerEvent: {}
+[4.609339] (-) TimerEvent: {}
+[4.709628] (-) TimerEvent: {}
+[4.809939] (-) TimerEvent: {}
+[4.910234] (-) TimerEvent: {}
+[5.010523] (-) TimerEvent: {}
+[5.110814] (-) TimerEvent: {}
+[5.211074] (-) TimerEvent: {}
+[5.311365] (-) TimerEvent: {}
+[5.411646] (-) TimerEvent: {}
+[5.511921] (-) TimerEvent: {}
+[5.612204] (-) TimerEvent: {}
+[5.712480] (-) TimerEvent: {}
+[5.812820] (-) TimerEvent: {}
+[5.913143] (-) TimerEvent: {}
+[6.013452] (-) TimerEvent: {}
+[6.113741] (-) TimerEvent: {}
+[6.214054] (-) TimerEvent: {}
+[6.314397] (-) TimerEvent: {}
+[6.414744] (-) TimerEvent: {}
+[6.515093] (-) TimerEvent: {}
+[6.615384] (-) TimerEvent: {}
+[6.715680] (-) TimerEvent: {}
+[6.816020] (-) TimerEvent: {}
+[6.916386] (-) TimerEvent: {}
+[7.016716] (-) TimerEvent: {}
+[7.117051] (-) TimerEvent: {}
+[7.217406] (-) TimerEvent: {}
+[7.317738] (-) TimerEvent: {}
+[7.418081] (-) TimerEvent: {}
+[7.518428] (-) TimerEvent: {}
+[7.618770] (-) TimerEvent: {}
+[7.719101] (-) TimerEvent: {}
+[7.819436] (-) TimerEvent: {}
+[7.919764] (-) TimerEvent: {}
+[8.020107] (-) TimerEvent: {}
+[8.120480] (-) TimerEvent: {}
+[8.220837] (-) TimerEvent: {}
+[8.321176] (-) TimerEvent: {}
+[8.421516] (-) TimerEvent: {}
+[8.521850] (-) TimerEvent: {}
+[8.622166] (-) TimerEvent: {}
+[8.722486] (-) TimerEvent: {}
+[8.822807] (-) TimerEvent: {}
+[8.923133] (-) TimerEvent: {}
+[9.023478] (-) TimerEvent: {}
+[9.123809] (-) TimerEvent: {}
+[9.224134] (-) TimerEvent: {}
+[9.324460] (-) TimerEvent: {}
+[9.424794] (-) TimerEvent: {}
+[9.525115] (-) TimerEvent: {}
+[9.625465] (-) TimerEvent: {}
+[9.725818] (-) TimerEvent: {}
+[9.826147] (-) TimerEvent: {}
+[9.926469] (-) TimerEvent: {}
+[10.026793] (-) TimerEvent: {}
+[10.127125] (-) TimerEvent: {}
+[10.227456] (-) TimerEvent: {}
+[10.327778] (-) TimerEvent: {}
+[10.428100] (-) TimerEvent: {}
+[10.528445] (-) TimerEvent: {}
+[10.628766] (-) TimerEvent: {}
+[10.729116] (-) TimerEvent: {}
+[10.829489] (-) TimerEvent: {}
+[10.929815] (-) TimerEvent: {}
+[11.030135] (-) TimerEvent: {}
+[11.130494] (-) TimerEvent: {}
+[11.230862] (-) TimerEvent: {}
+[11.331213] (-) TimerEvent: {}
+[11.431605] (-) TimerEvent: {}
+[11.531988] (-) TimerEvent: {}
+[11.632331] (-) TimerEvent: {}
+[11.732672] (-) TimerEvent: {}
+[11.833039] (-) TimerEvent: {}
+[11.933556] (-) TimerEvent: {}
+[12.034001] (-) TimerEvent: {}
+[12.134415] (-) TimerEvent: {}
+[12.234748] (-) TimerEvent: {}
+[12.335040] (-) TimerEvent: {}
+[12.435346] (-) TimerEvent: {}
+[12.535667] (-) TimerEvent: {}
+[12.635980] (-) TimerEvent: {}
+[12.736289] (-) TimerEvent: {}
+[12.836597] (-) TimerEvent: {}
+[12.936901] (-) TimerEvent: {}
+[13.037210] (-) TimerEvent: {}
+[13.137521] (-) TimerEvent: {}
+[13.237829] (-) TimerEvent: {}
+[13.338196] (-) TimerEvent: {}
+[13.438595] (-) TimerEvent: {}
+[13.538904] (-) TimerEvent: {}
+[13.639215] (-) TimerEvent: {}
+[13.739529] (-) TimerEvent: {}
+[13.839838] (-) TimerEvent: {}
+[13.940191] (-) TimerEvent: {}
+[14.040501] (-) TimerEvent: {}
+[14.140816] (-) TimerEvent: {}
+[14.241140] (-) TimerEvent: {}
+[14.341478] (-) TimerEvent: {}
+[14.441784] (-) TimerEvent: {}
+[14.542126] (-) TimerEvent: {}
+[14.642450] (-) TimerEvent: {}
+[14.742741] (-) TimerEvent: {}
+[14.843070] (-) TimerEvent: {}
+[14.943395] (-) TimerEvent: {}
+[15.043721] (-) TimerEvent: {}
+[15.144034] (-) TimerEvent: {}
+[15.244343] (-) TimerEvent: {}
+[15.344702] (-) TimerEvent: {}
+[15.445014] (-) TimerEvent: {}
+[15.545327] (-) TimerEvent: {}
+[15.645632] (-) TimerEvent: {}
+[15.745945] (-) TimerEvent: {}
+[15.846276] (-) TimerEvent: {}
+[15.946606] (-) TimerEvent: {}
+[16.046916] (-) TimerEvent: {}
+[16.147226] (-) TimerEvent: {}
+[16.247533] (-) TimerEvent: {}
+[16.347838] (-) TimerEvent: {}
+[16.448221] (-) TimerEvent: {}
+[16.548526] (-) TimerEvent: {}
+[16.648833] (-) TimerEvent: {}
+[16.749139] (-) TimerEvent: {}
+[16.849446] (-) TimerEvent: {}
+[16.949763] (-) TimerEvent: {}
+[17.050056] (-) TimerEvent: {}
+[17.150375] (-) TimerEvent: {}
+[17.250676] (-) TimerEvent: {}
+[17.350988] (-) TimerEvent: {}
+[17.451376] (-) TimerEvent: {}
+[17.551678] (-) TimerEvent: {}
+[17.651987] (-) TimerEvent: {}
+[17.752655] (-) TimerEvent: {}
+[17.852984] (-) TimerEvent: {}
+[17.953346] (-) TimerEvent: {}
+[18.053702] (-) TimerEvent: {}
+[18.154001] (-) TimerEvent: {}
+[18.254315] (-) TimerEvent: {}
+[18.354622] (-) TimerEvent: {}
+[18.454967] (-) TimerEvent: {}
+[18.555284] (-) TimerEvent: {}
+[18.655603] (-) TimerEvent: {}
+[18.755887] (-) TimerEvent: {}
+[18.856257] (-) TimerEvent: {}
+[18.914076] (final) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX static library libfinal.a\x1b[0m\n'}
+[18.956394] (-) TimerEvent: {}
+[19.021276] (final) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable testnavigation\x1b[0m\n'}
+[19.056488] (-) TimerEvent: {}
+[19.156778] (-) TimerEvent: {}
+[19.232166] (final) StdoutLine: {'line': b'[100%] Built target final\n'}
+[19.256925] (-) TimerEvent: {}
+[19.357219] (-) TimerEvent: {}
+[19.457508] (-) TimerEvent: {}
+[19.557791] (-) TimerEvent: {}
+[19.658165] (-) TimerEvent: {}
+[19.758495] (-) TimerEvent: {}
+[19.855413] (final) StdoutLine: {'line': b'[100%] Built target testnavigation\n'}
+[19.858596] (-) TimerEvent: {}
+[19.871874] (final) CommandEnded: {'returncode': 0}
+[19.914519] (final) JobProgress: {'identifier': 'final', 'progress': 'install'}
+[19.933386] (final) Command: {'cmd': ['/usr/bin/cmake', '--install', '/root/CSE180Project/build/final'], 'cwd': '/root/CSE180Project/build/final', 'env': OrderedDict([('MALIPUT_MALIDRIVE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_malidrive'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GURUMDDS_HOME', '/usr/share/gurumdds/cmake/../../..'), ('MULTILANE_RESOURCE_ROOT', '/opt/ros/foxy/share/maliput_multilane'), ('HOSTNAME', 'thinkshit'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/root/MRTP/MRTP/install/navigation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/opt/libphidget22/lib:/usr/share/gurumdds/cmake/../../../lib:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/ros/foxy/lib'), ('HOME', '/root'), ('OLDPWD', '/root/CSE180Project/src/final'), ('ROS_PYTHON_VERSION', '3'), ('NDDSHOME', '/opt/rti.com/rti_connext_dds-5.3.1'), ('LC_CTYPE', 'C.UTF-8'), ('COLCON_PREFIX_PATH', '/root/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('GAZEBO_MODEL_PATH', ':/opt/ros/foxy/share/turtlebot3_gazebo/models'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin/maliput_malidrive/applications:/opt/ros/foxy/bin/maliput_malidrive:/opt/rti.com/rti_connext_dds-5.3.1/lib/x64Linux3gcc5.4.0:/opt/rti.com/rti_connext_dds-5.3.1/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('XAUTHORITY', ''), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/gazeboenvs:/root/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'teletype'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('ASAN_OPTIONS', ':detect_odr_violation=0::detect_odr_violation=0:detect_odr_violation=0'), ('PWD', '/root/CSE180Project/build/final'), ('TURTLEBOT3_MODEL', 'waffle'), ('MALIPUT_PLUGIN_PATH', '/opt/ros/foxy/lib/maliput_plugins'), ('PYTHONPATH', '/root/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/root/MRTP/MRTP/install/talklisten:/root/MRTP/MRTP/install/navigation:/root/MRTP/MRTP/install/multipletopics:/root/MRTP/MRTP/install/examples:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[19.945997] (final) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[19.946205] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/environment/library_path.sh\n'}
+[19.946338] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/environment/library_path.dsv\n'}
+[19.946526] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/include\n'}
+[19.946726] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/include/final\n'}
+[19.946810] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/include/final/navigation.hpp\n'}
+[19.946885] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/lib/libfinal.a\n'}
+[19.949268] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/lib/final/testnavigation\n'}
+[19.958747] (-) TimerEvent: {}
+[19.965953] (final) StdoutLine: {'line': b'-- Set runtime path of "/root/CSE180Project/install/final/lib/final/testnavigation" to ""\n'}
+[19.966185] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/ament_index/resource_index/package_run_dependencies/final\n'}
+[19.966277] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/ament_index/resource_index/parent_prefix_path/final\n'}
+[19.966386] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/environment/ament_prefix_path.sh\n'}
+[19.966614] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/environment/ament_prefix_path.dsv\n'}
+[19.966794] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/environment/path.sh\n'}
+[19.966964] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/environment/path.dsv\n'}
+[19.967146] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/local_setup.bash\n'}
+[19.967303] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/local_setup.sh\n'}
+[19.967502] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/local_setup.zsh\n'}
+[19.967669] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/local_setup.dsv\n'}
+[19.967842] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/package.dsv\n'}
+[19.968022] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/ament_index/resource_index/packages/final\n'}
+[19.968178] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/navigatorlibExport.cmake\n'}
+[19.968329] (final) StdoutLine: {'line': b'-- Installing: /root/CSE180Project/install/final/share/final/cmake/navigatorlibExport-noconfig.cmake\n'}
+[19.968513] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[19.968721] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[19.968878] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/finalConfig.cmake\n'}
+[19.969021] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/finalConfig-version.cmake\n'}
+[19.969141] (final) StdoutLine: {'line': b'-- Up-to-date: /root/CSE180Project/install/final/share/final/package.xml\n'}
+[19.971049] (final) CommandEnded: {'returncode': 0}
+[20.042929] (final) JobEnded: {'identifier': 'final', 'rc': 0}
+[20.044269] (-) EventReactorShutdown: {}

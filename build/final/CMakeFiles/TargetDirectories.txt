@@ -1,0 +1,11 @@
+/root/CSE180Project/build/final/CMakeFiles/install/strip.dir
+/root/CSE180Project/build/final/CMakeFiles/install/local.dir
+/root/CSE180Project/build/final/CMakeFiles/testnavigation.dir
+/root/CSE180Project/build/final/CMakeFiles/edit_cache.dir
+/root/CSE180Project/build/final/CMakeFiles/test.dir
+/root/CSE180Project/build/final/CMakeFiles/final.dir
+/root/CSE180Project/build/final/CMakeFiles/install.dir
+/root/CSE180Project/build/final/CMakeFiles/list_install_components.dir
+/root/CSE180Project/build/final/CMakeFiles/rebuild_cache.dir
+/root/CSE180Project/build/final/CMakeFiles/final_uninstall.dir
+/root/CSE180Project/build/final/CMakeFiles/uninstall.dir

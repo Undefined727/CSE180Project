@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000081] (final) JobQueued: {'identifier': 'final', 'dependencies': OrderedDict()}
+[0.000359] (final) JobStarted: {'identifier': 'final'}
+[0.008638] (final) JobProgress: {'identifier': 'final', 'progress': 'cmake'}
+[0.009321] (final) JobProgress: {'identifier': 'final', 'progress': 'build'}
+[0.009345] (final) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/sam/CSE180/build/final', '--', '-j8', '-l8'], 'cwd': '/home/sam/CSE180/build/final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SSH_AGENT_PID', '1065'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/MRTP/MRTP/install/navigation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sam/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sam'), ('JOURNAL_STREAM', '8:34502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sam-17Z90P-K-AAC8U1:@/tmp/.ICE-unix/1150,unix/sam-17Z90P-K-AAC8U1:/tmp/.ICE-unix/1150'), ('INVOCATION_ID', '5a3044aa520540c684e29a00b67c90d5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e371bdd_1f50_4211_961d_6c8f9548fa85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.424'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sam/MRTP/MRTP/install/talklisten:/home/sam/MRTP/MRTP/install/navigation:/home/sam/MRTP/MRTP/install/multipletopics:/home/sam/MRTP/MRTP/install/gazeboenvs:/home/sam/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sam/CSE180/build/final'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sam/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sam/MRTP/MRTP/install/talklisten:/home/sam/MRTP/MRTP/install/navigation:/home/sam/MRTP/MRTP/install/multipletopics:/home/sam/MRTP/MRTP/install/examples:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[0.027765] (final) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.040929] (final) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099878] (-) TimerEvent: {}
+[0.142768] (final) StdoutLine: {'line': b'-- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.162296] (final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.164335] (final) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.199969] (-) TimerEvent: {}
+[0.236164] (final) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.265975] (final) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.4 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.266966] (final) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.300038] (-) TimerEvent: {}
+[0.354477] (final) StdoutLine: {'line': b'-- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)\n'}
+[0.374949] (final) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[0.400110] (-) TimerEvent: {}
+[0.418403] (final) StdoutLine: {'line': b'-- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)\n'}
+[0.500189] (-) TimerEvent: {}
+[0.582577] (final) StdoutLine: {'line': b'-- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)\n'}
+[0.600263] (-) TimerEvent: {}
+[0.601198] (final) StdoutLine: {'line': b'-- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)\n'}
+[0.606926] (final) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[0.646799] (final) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[0.647290] (final) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.647423] (final) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/sam/CSE180/src/final/include>\n'}
+[0.647487] (final) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.647892] (final) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[0.647989] (final) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[0.648271] (final) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.648716] (final) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.648796] (final) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.648889] (final) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.650809] (final) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.659164] (final) StdoutLine: {'line': b'-- Generating done\n'}
+[0.660142] (final) StdoutLine: {'line': b'-- Build files have been written to: /home/sam/CSE180/build/final\n'}
+[0.675669] (final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target final\x1b[0m\n'}
+[0.677113] (final) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target testnavigation\x1b[0m\n'}
+[0.697518] (final) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/testnavigation.dir/src/navigation.cpp.o\x1b[0m\n'}
+[0.700354] (-) TimerEvent: {}
+[0.700624] (final) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/final.dir/src/navigation.cpp.o\x1b[0m\n'}
+[0.800474] (-) TimerEvent: {}
+[0.900815] (-) TimerEvent: {}
+[1.001140] (-) TimerEvent: {}
+[1.101424] (-) TimerEvent: {}
+[1.201785] (-) TimerEvent: {}
+[1.302124] (-) TimerEvent: {}
+[1.402471] (-) TimerEvent: {}
+[1.502802] (-) TimerEvent: {}
+[1.603081] (-) TimerEvent: {}
+[1.703406] (-) TimerEvent: {}
+[1.803730] (-) TimerEvent: {}
+[1.904057] (-) TimerEvent: {}
+[2.004359] (-) TimerEvent: {}
+[2.104661] (-) TimerEvent: {}
+[2.204967] (-) TimerEvent: {}
+[2.305266] (-) TimerEvent: {}
+[2.405564] (-) TimerEvent: {}
+[2.505876] (-) TimerEvent: {}
+[2.606260] (-) TimerEvent: {}
+[2.706589] (-) TimerEvent: {}
+[2.806941] (-) TimerEvent: {}
+[2.907302] (-) TimerEvent: {}
+[3.007578] (-) TimerEvent: {}
+[3.107927] (-) TimerEvent: {}
+[3.208275] (-) TimerEvent: {}
+[3.308607] (-) TimerEvent: {}
+[3.408925] (-) TimerEvent: {}
+[3.509242] (-) TimerEvent: {}
+[3.609552] (-) TimerEvent: {}
+[3.709869] (-) TimerEvent: {}
+[3.810178] (-) TimerEvent: {}
+[3.910487] (-) TimerEvent: {}
+[4.010801] (-) TimerEvent: {}
+[4.111112] (-) TimerEvent: {}
+[4.211439] (-) TimerEvent: {}
+[4.311770] (-) TimerEvent: {}
+[4.412092] (-) TimerEvent: {}
+[4.512431] (-) TimerEvent: {}
+[4.612739] (-) TimerEvent: {}
+[4.713049] (-) TimerEvent: {}
+[4.813355] (-) TimerEvent: {}
+[4.913656] (-) TimerEvent: {}
+[5.013974] (-) TimerEvent: {}
+[5.114284] (-) TimerEvent: {}
+[5.214583] (-) TimerEvent: {}
+[5.314919] (-) TimerEvent: {}
+[5.415299] (-) TimerEvent: {}
+[5.515627] (-) TimerEvent: {}
+[5.615948] (-) TimerEvent: {}
+[5.716248] (-) TimerEvent: {}
+[5.816620] (-) TimerEvent: {}
+[5.916935] (-) TimerEvent: {}
+[6.017256] (-) TimerEvent: {}
+[6.117556] (-) TimerEvent: {}
+[6.217850] (-) TimerEvent: {}
+[6.318132] (-) TimerEvent: {}
+[6.418442] (-) TimerEvent: {}
+[6.518732] (-) TimerEvent: {}
+[6.619038] (-) TimerEvent: {}
+[6.719331] (-) TimerEvent: {}
+[6.819619] (-) TimerEvent: {}
+[6.919930] (-) TimerEvent: {}
+[7.020225] (-) TimerEvent: {}
+[7.120522] (-) TimerEvent: {}
+[7.220832] (-) TimerEvent: {}
+[7.321185] (-) TimerEvent: {}
+[7.421474] (-) TimerEvent: {}
+[7.521770] (-) TimerEvent: {}
+[7.622067] (-) TimerEvent: {}
+[7.722360] (-) TimerEvent: {}
+[7.822653] (-) TimerEvent: {}
+[7.922946] (-) TimerEvent: {}
+[8.023253] (-) TimerEvent: {}
+[8.123548] (-) TimerEvent: {}
+[8.223859] (-) TimerEvent: {}
+[8.324155] (-) TimerEvent: {}
+[8.424454] (-) TimerEvent: {}
+[8.524749] (-) TimerEvent: {}
+[8.625058] (-) TimerEvent: {}
+[8.725346] (-) TimerEvent: {}
+[8.825645] (-) TimerEvent: {}
+[8.925964] (-) TimerEvent: {}
+[9.026262] (-) TimerEvent: {}
+[9.126550] (-) TimerEvent: {}
+[9.226857] (-) TimerEvent: {}
+[9.327148] (-) TimerEvent: {}
+[9.427456] (-) TimerEvent: {}
+[9.527757] (-) TimerEvent: {}
+[9.628059] (-) TimerEvent: {}
+[9.728377] (-) TimerEvent: {}
+[9.828681] (-) TimerEvent: {}
+[9.867491] (final) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX static library libfinal.a\x1b[0m\n'}
+[9.881232] (final) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable testnavigation\x1b[0m\n'}
+[9.928788] (-) TimerEvent: {}
+[10.012420] (final) StdoutLine: {'line': b'[ 80%] Built target final\n'}
+[10.028966] (-) TimerEvent: {}
+[10.129230] (-) TimerEvent: {}
+[10.229666] (-) TimerEvent: {}
+[10.283262] (final) StdoutLine: {'line': b'[100%] Built target testnavigation\n'}
+[10.290799] (final) CommandEnded: {'returncode': 0}
+[10.307336] (final) JobProgress: {'identifier': 'final', 'progress': 'install'}
+[10.315131] (final) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/sam/CSE180/build/final'], 'cwd': '/home/sam/CSE180/build/final', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'sam'), ('SSH_AGENT_PID', '1065'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/sam/MRTP/MRTP/install/navigation/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/sam'), ('OLDPWD', '/home/sam'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '801'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/sam/MRTP/MRTP/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'sam'), ('JOURNAL_STREAM', '8:34502'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'sam'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/sam-17Z90P-K-AAC8U1:@/tmp/.ICE-unix/1150,unix/sam-17Z90P-K-AAC8U1:/tmp/.ICE-unix/1150'), ('INVOCATION_ID', '5a3044aa520540c684e29a00b67c90d5'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/9e371bdd_1f50_4211_961d_6c8f9548fa85'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.424'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/sam/MRTP/MRTP/install/talklisten:/home/sam/MRTP/MRTP/install/navigation:/home/sam/MRTP/MRTP/install/multipletopics:/home/sam/MRTP/MRTP/install/gazeboenvs:/home/sam/MRTP/MRTP/install/examples:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/sam/CSE180/build/final'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/sam/MRTP/MRTP/install/gazeboenvs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/sam/MRTP/MRTP/install/talklisten:/home/sam/MRTP/MRTP/install/navigation:/home/sam/MRTP/MRTP/install/multipletopics:/home/sam/MRTP/MRTP/install/examples:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy')]), 'shell': False}
+[10.323238] (final) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.323381] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/environment/library_path.sh\n'}
+[10.323431] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/environment/library_path.dsv\n'}
+[10.323472] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/include\n'}
+[10.323512] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/include/final\n'}
+[10.323551] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/include/final/navigation.hpp\n'}
+[10.323607] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/lib/libfinal.a\n'}
+[10.329776] (-) TimerEvent: {}
+[10.331623] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/lib/final/testnavigation\n'}
+[10.334571] (final) StdoutLine: {'line': b'-- Set runtime path of "/home/sam/CSE180/install/final/lib/final/testnavigation" to ""\n'}
+[10.334658] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/ament_index/resource_index/package_run_dependencies/final\n'}
+[10.334704] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/ament_index/resource_index/parent_prefix_path/final\n'}
+[10.334758] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/environment/ament_prefix_path.sh\n'}
+[10.334798] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/environment/ament_prefix_path.dsv\n'}
+[10.334836] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/environment/path.sh\n'}
+[10.334894] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/environment/path.dsv\n'}
+[10.334934] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/local_setup.bash\n'}
+[10.334990] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/local_setup.sh\n'}
+[10.335029] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/local_setup.zsh\n'}
+[10.335084] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/local_setup.dsv\n'}
+[10.335122] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/package.dsv\n'}
+[10.335177] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/ament_index/resource_index/packages/final\n'}
+[10.335270] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/cmake/navigatorlibExport.cmake\n'}
+[10.335343] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/cmake/navigatorlibExport-noconfig.cmake\n'}
+[10.335405] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.335465] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.335523] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/cmake/finalConfig.cmake\n'}
+[10.335575] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/cmake/finalConfig-version.cmake\n'}
+[10.335622] (final) StdoutLine: {'line': b'-- Installing: /home/sam/CSE180/install/final/share/final/package.xml\n'}
+[10.336963] (final) CommandEnded: {'returncode': 0}
+[10.372719] (final) JobEnded: {'identifier': 'final', 'rc': 0}
+[10.373270] (-) EventReactorShutdown: {}

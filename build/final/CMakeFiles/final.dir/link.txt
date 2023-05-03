@@ -1,0 +1,2 @@
+/usr/bin/ar qc libfinal.a  CMakeFiles/final.dir/src/navigation.cpp.o
+/usr/bin/ranlib libfinal.a
