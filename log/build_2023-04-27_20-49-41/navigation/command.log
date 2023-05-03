@@ -1,2 +1,0 @@
-Invoking command in '/home/sam/CSE180/build/navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /home/sam/CSE180/src/final -DCMAKE_INSTALL_PREFIX=/home/sam/CSE180/install/navigation
-Invoked command in '/home/sam/CSE180/build/navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /home/sam/CSE180/src/final -DCMAKE_INSTALL_PREFIX=/home/sam/CSE180/install/navigation

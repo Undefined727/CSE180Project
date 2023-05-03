@@ -1,4 +1,0 @@
-Invoking command in '/home/sam/CSE180/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /home/sam/CSE180/src/final -DCMAKE_INSTALL_PREFIX=/home/sam/CSE180/install/final
-Invoked command in '/home/sam/CSE180/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /home/sam/CSE180/src/final -DCMAKE_INSTALL_PREFIX=/home/sam/CSE180/install/final
-Invoking command in '/home/sam/CSE180/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /home/sam/CSE180/build/final -- -j8 -l8
-Invoked command in '/home/sam/CSE180/build/final' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sam/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /home/sam/CSE180/build/final -- -j8 -l8

@@ -1,6 +1,0 @@
-Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /root/CSE180Project/src/final -DCMAKE_INSTALL_PREFIX=/root/CSE180Project/install/final
-Invoked command in '/root/CSE180Project/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /root/CSE180Project/src/final -DCMAKE_INSTALL_PREFIX=/root/CSE180Project/install/final
-Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /root/CSE180Project/build/final -- -j8 -l8
-Invoked command in '/root/CSE180Project/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /root/CSE180Project/build/final -- -j8 -l8
-Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --install /root/CSE180Project/build/final
-Invoked command in '/root/CSE180Project/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --install /root/CSE180Project/build/final

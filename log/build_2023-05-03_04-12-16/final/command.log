@@ -1,2 +1,0 @@
-Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /root/CSE180Project/build/final -- -j8 -l8
-Invoked command in '/root/CSE180Project/build/final' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /root/CSE180Project/build/final -- -j8 -l8
