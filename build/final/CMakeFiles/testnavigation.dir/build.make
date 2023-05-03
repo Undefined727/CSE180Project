@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/sam/CSE180/src/final
+CMAKE_SOURCE_DIR = /root/CSE180Project/src/final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/sam/CSE180/build/final
+CMAKE_BINARY_DIR = /root/CSE180Project/build/final
 
 # Include any dependencies generated for this target.
 include CMakeFiles/testnavigation.dir/depend.make
@@ -58,30 +58,30 @@ include CMakeFiles/testnavigation.dir/progress.make
 include CMakeFiles/testnavigation.dir/flags.make
 
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: CMakeFiles/testnavigation.dir/flags.make
-CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /home/sam/CSE180/src/final/src/testnavigator.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o -c /home/sam/CSE180/src/final/src/testnavigator.cpp
+CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o: /root/CSE180Project/src/final/src/testnavigator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o -c /root/CSE180Project/src/final/src/testnavigator.cpp
 
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testnavigation.dir/src/testnavigator.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/CSE180/src/final/src/testnavigator.cpp > CMakeFiles/testnavigation.dir/src/testnavigator.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CSE180Project/src/final/src/testnavigator.cpp > CMakeFiles/testnavigation.dir/src/testnavigator.cpp.i
 
 CMakeFiles/testnavigation.dir/src/testnavigator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testnavigation.dir/src/testnavigator.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/CSE180/src/final/src/testnavigator.cpp -o CMakeFiles/testnavigation.dir/src/testnavigator.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CSE180Project/src/final/src/testnavigator.cpp -o CMakeFiles/testnavigation.dir/src/testnavigator.cpp.s
 
 CMakeFiles/testnavigation.dir/src/navigation.cpp.o: CMakeFiles/testnavigation.dir/flags.make
-CMakeFiles/testnavigation.dir/src/navigation.cpp.o: /home/sam/CSE180/src/final/src/navigation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testnavigation.dir/src/navigation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testnavigation.dir/src/navigation.cpp.o -c /home/sam/CSE180/src/final/src/navigation.cpp
+CMakeFiles/testnavigation.dir/src/navigation.cpp.o: /root/CSE180Project/src/final/src/navigation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/testnavigation.dir/src/navigation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testnavigation.dir/src/navigation.cpp.o -c /root/CSE180Project/src/final/src/navigation.cpp
 
 CMakeFiles/testnavigation.dir/src/navigation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testnavigation.dir/src/navigation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/CSE180/src/final/src/navigation.cpp > CMakeFiles/testnavigation.dir/src/navigation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CSE180Project/src/final/src/navigation.cpp > CMakeFiles/testnavigation.dir/src/navigation.cpp.i
 
 CMakeFiles/testnavigation.dir/src/navigation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testnavigation.dir/src/navigation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/CSE180/src/final/src/navigation.cpp -o CMakeFiles/testnavigation.dir/src/navigation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CSE180Project/src/final/src/navigation.cpp -o CMakeFiles/testnavigation.dir/src/navigation.cpp.s
 
 # Object files for target testnavigation
 testnavigation_OBJECTS = \
@@ -174,7 +174,7 @@ testnavigation: /opt/ros/foxy/lib/librcpputils.so
 testnavigation: /opt/ros/foxy/lib/librosidl_runtime_c.so
 testnavigation: /opt/ros/foxy/lib/librcutils.so
 testnavigation: CMakeFiles/testnavigation.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testnavigation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable testnavigation"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testnavigation.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -187,6 +187,6 @@ CMakeFiles/testnavigation.dir/clean:
 .PHONY : CMakeFiles/testnavigation.dir/clean
 
 CMakeFiles/testnavigation.dir/depend:
-	cd /home/sam/CSE180/build/final && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/CSE180/src/final /home/sam/CSE180/src/final /home/sam/CSE180/build/final /home/sam/CSE180/build/final /home/sam/CSE180/build/final/CMakeFiles/testnavigation.dir/DependInfo.cmake --color=$(COLOR)
+	cd /root/CSE180Project/build/final && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/CSE180Project/src/final /root/CSE180Project/src/final /root/CSE180Project/build/final /root/CSE180Project/build/final /root/CSE180Project/build/final/CMakeFiles/testnavigation.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/testnavigation.dir/depend
 

@@ -1,0 +1,97 @@
+[0.025s] Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /root/CSE180Project/src/final -DCMAKE_INSTALL_PREFIX=/root/CSE180Project/install/final
+[0.097s] -- The C compiler identification is GNU 9.4.0
+[0.166s] -- The CXX compiler identification is GNU 9.4.0
+[0.172s] -- Check for working C compiler: /usr/bin/cc
+[0.265s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.266s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.381s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++
+[0.490s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.491s] -- Detecting CXX compiler ABI info
+[0.598s] -- Detecting CXX compiler ABI info - done
+[0.613s] -- Detecting CXX compile features
+[0.613s] -- Detecting CXX compile features - done
+[0.623s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.662s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.662s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.999s] -- Found rclcpp: 2.4.2 (/opt/ros/foxy/share/rclcpp/cmake)
+[1.107s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_connext_c;rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.132s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[1.148s] -- Found RTI Connext: /opt/rti.com/rti_connext_dds-5.3.1
+[2.277s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.329s] -- Found FastRTPS: /opt/ros/foxy/include  
+[2.465s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_connext_cpp;rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.566s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[2.568s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.569s] -- Looking for pthread.h
+[2.665s] -- Looking for pthread.h - found
+[2.665s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.763s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.763s] -- Looking for pthread_create in pthreads
+[2.844s] -- Looking for pthread_create in pthreads - not found
+[2.845s] -- Looking for pthread_create in pthread
+[2.942s] -- Looking for pthread_create in pthread - found
+[2.944s] -- Found Threads: TRUE  
+[3.164s] -- Found geometry_msgs: 2.0.5 (/opt/ros/foxy/share/geometry_msgs/cmake)
+[3.208s] -- Found nav_msgs: 2.0.5 (/opt/ros/foxy/share/nav_msgs/cmake)
+[3.294s] -- Found nav2_msgs: 0.4.7 (/opt/ros/foxy/share/nav2_msgs/cmake)
+[3.621s] -- Found rclcpp_action: 2.4.2 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[3.668s] -- Found lifecycle_msgs: 1.0.0 (/opt/ros/foxy/share/lifecycle_msgs/cmake)
+[3.685s] -- Found ament_lint_auto: 0.9.7 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[3.824s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.826s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.827s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/root/CSE180Project/src/final/include>
+[3.827s] -- Configured cppcheck exclude dirs and/or files: 
+[3.828s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.828s] -- Configured cpplint exclude dirs and/or files: 
+[3.829s] -- Added test 'lint_cmake' to check CMake code style
+[3.831s] -- Added test 'uncrustify' to check C / C++ code style
+[3.831s] -- Configured uncrustify additional arguments: 
+[3.832s] -- Added test 'xmllint' to check XML markup files
+[3.839s] -- Configuring done
+[3.858s] -- Generating done
+[3.860s] -- Build files have been written to: /root/CSE180Project/build/final
+[3.869s] Invoked command in '/root/CSE180Project/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake /root/CSE180Project/src/final -DCMAKE_INSTALL_PREFIX=/root/CSE180Project/install/final
+[3.873s] Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /root/CSE180Project/build/final -- -j8 -l8
+[3.936s] [35m[1mScanning dependencies of target final[0m
+[3.937s] [35m[1mScanning dependencies of target testnavigation[0m
+[3.992s] [ 20%] [32mBuilding CXX object CMakeFiles/final.dir/src/navigation.cpp.o[0m
+[3.999s] [ 40%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o[0m
+[3.999s] [ 60%] [32mBuilding CXX object CMakeFiles/testnavigation.dir/src/navigation.cpp.o[0m
+[18.913s] [ 80%] [32m[1mLinking CXX static library libfinal.a[0m
+[19.020s] [100%] [32m[1mLinking CXX executable testnavigation[0m
+[19.231s] [100%] Built target final
+[19.854s] [100%] Built target testnavigation
+[19.871s] Invoked command in '/root/CSE180Project/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --build /root/CSE180Project/build/final -- -j8 -l8
+[19.933s] Invoking command in '/root/CSE180Project/build/final': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --install /root/CSE180Project/build/final
+[19.945s] -- Install configuration: ""
+[19.945s] -- Installing: /root/CSE180Project/install/final/share/final/environment/library_path.sh
+[19.945s] -- Installing: /root/CSE180Project/install/final/share/final/environment/library_path.dsv
+[19.945s] -- Up-to-date: /root/CSE180Project/install/final/include
+[19.946s] -- Up-to-date: /root/CSE180Project/install/final/include/final
+[19.946s] -- Up-to-date: /root/CSE180Project/install/final/include/final/navigation.hpp
+[19.946s] -- Installing: /root/CSE180Project/install/final/lib/libfinal.a
+[19.948s] -- Installing: /root/CSE180Project/install/final/lib/final/testnavigation
+[19.965s] -- Set runtime path of "/root/CSE180Project/install/final/lib/final/testnavigation" to ""
+[19.965s] -- Up-to-date: /root/CSE180Project/install/final/share/ament_index/resource_index/package_run_dependencies/final
+[19.965s] -- Installing: /root/CSE180Project/install/final/share/ament_index/resource_index/parent_prefix_path/final
+[19.965s] -- Installing: /root/CSE180Project/install/final/share/final/environment/ament_prefix_path.sh
+[19.965s] -- Installing: /root/CSE180Project/install/final/share/final/environment/ament_prefix_path.dsv
+[19.966s] -- Installing: /root/CSE180Project/install/final/share/final/environment/path.sh
+[19.966s] -- Installing: /root/CSE180Project/install/final/share/final/environment/path.dsv
+[19.966s] -- Up-to-date: /root/CSE180Project/install/final/share/final/local_setup.bash
+[19.966s] -- Installing: /root/CSE180Project/install/final/share/final/local_setup.sh
+[19.966s] -- Up-to-date: /root/CSE180Project/install/final/share/final/local_setup.zsh
+[19.966s] -- Installing: /root/CSE180Project/install/final/share/final/local_setup.dsv
+[19.967s] -- Installing: /root/CSE180Project/install/final/share/final/package.dsv
+[19.967s] -- Up-to-date: /root/CSE180Project/install/final/share/ament_index/resource_index/packages/final
+[19.967s] -- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/navigatorlibExport.cmake
+[19.967s] -- Installing: /root/CSE180Project/install/final/share/final/cmake/navigatorlibExport-noconfig.cmake
+[19.967s] -- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/ament_cmake_export_targets-extras.cmake
+[19.968s] -- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/ament_cmake_export_dependencies-extras.cmake
+[19.968s] -- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/finalConfig.cmake
+[19.968s] -- Up-to-date: /root/CSE180Project/install/final/share/final/cmake/finalConfig-version.cmake
+[19.968s] -- Up-to-date: /root/CSE180Project/install/final/share/final/package.xml
+[19.971s] Invoked command in '/root/CSE180Project/build/final' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/root/MRTP/MRTP/install/gazeboenvs:/opt/ros/foxy /usr/bin/cmake --install /root/CSE180Project/build/final
