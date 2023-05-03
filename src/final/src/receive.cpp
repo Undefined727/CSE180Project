@@ -4,17 +4,12 @@
 #include <iostream>
 
 rclcpp::Node::SharedPtr nodeh;
-std::vector<vector<float>> regularMap;
-std::vector<float> tempDistance = NULL;
-std::vector<float> tempPose = NULL;
-std::vector<float> tempPose = NULL;
+std::vector<std::vector<float>> regularMap;
+std::vector<float> tempDistance = std::vector<float>();
 
 
 void receiveDistance(const sensor_msgs::msg::LaserScan::SharedPtr msg){
 	std::vector<float> temp = msg->ranges;
-	if(tempPose != NULL){
-
-	}
 }
 
 
