@@ -25,37 +25,21 @@ limitations under the License.
 
 rclcpp::Node::SharedPtr nodeh;
 std::vector<float> tempDistance = std::vector<float>();
+float[
+float min = -1;
 
-float pillar[9][2] = {
-	{-1.1, -1.1}, {-1.1, 0}, {-1.1, 1.1}, 
-	{0, 0}, {0, -1.1}, {0, 1.1}, 
-	{1.1, 0}, {1.1, -1.1}, {1.1, 1.1}
-};
-float radius_pillar = 0.3;
+float mins[17]= {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
+float points[17][2] = {{1,6, -1.6}, {0.6, -1.8}, {0, -2.4}, {-0.6, -1.8}, {-1.6, -1.6}, {-1.8, -0.8}, {-0.5, -0.5}, {0.5, -0.5}, {1.8, -0.8}, {1.8, 0.8}, {0.5, 0.5}, {-0.5, 0.5}, {-1.8, 0.8}, {-1.5, 1.5}, {-0.5, 1.75}, {0.5, 1.75}, {1.5, 1.5}}
 
 
 void receiveDistance(const sensor_msgs::msg::LaserScan::SharedPtr msg){
+	min = 99999;
 	std::vector<float> temp = msg->ranges;
 	for(int i = 0; i < 360; i++){
+	if (temp[i] < min) min = temp[i];
 	}
 }
 
-
-
-std::string distance(float x, float y){
-	bool match = false;
-	float rad = radius_pillar * radius_pillar;
-		for(int i = 0; i < 9; i++){
-			float euclidian_dist = (pillar[i][0] - x) * (pillar[i][0] - x) + (pillar[i][1] - y) * (pillar[i][1] - y);
-				if(euclidian_dist <  rad || y > 1.7 || y < -1.7 || x > 1.9 || x < -2.4 || x > 2.4 || (x < -1.9 && (y > 1 || y < -1)) || (x > 1.9 && (y > 1 || y < -1))){
-					match = true;
-				}
-		}
-	if(!match){
-		return "x, y";
-	}
-	return "false";
-}
 
 int main(int argc,char **argv) {
 
@@ -77,31 +61,31 @@ int main(int argc,char **argv) {
 	navigator.WaitUntilNav2Active();
 	// spin in place of 90 degrees (default parameter)
 	navigator.Spin();
-	while ( ! navigator.IsTaskComplete() ) {
-		// busy waiting for task to be completed
-	}
+	
+	
+	
+	
+	
 	geometry_msgs::msg::Pose::SharedPtr goal_pos = std::make_shared<geometry_msgs::msg::Pose>();
-	goal_pos->position.x = 2;
-	goal_pos->position.y = 1;
-	goal_pos->orientation.w = 1;
-	// move to new pose
-	navigator.GoToPose(goal_pos);
-	while ( ! navigator.IsTaskComplete() ) {
-
+	
+	for(int i = 0; i < 17; i++) {
+		while ( ! navigator.IsTaskComplete() ) {
+		// busy waiting for task to be completed	
+		}
+		
+		goal_pos->position.x = points[i][0];
+		goal_pos->position.y = points[i][1];
+		goal_pos->orientation.w = 1;
+		
+		rclcpp::spin(nodeh);
+		
+		if(min < mins[i]) {
+			rclpp_info(this->get_logger(), "Found new min at point " + i + ", value " + min + ".");
+		}
+		// move to new pose
+		navigator.GoToPose(goal_pos);
 	}
-	goal_pos->position.x = 2;
-	goal_pos->position.y = -1;
-	goal_pos->orientation.w = 1;
-	navigator.GoToPose(goal_pos);
-	// move to new pose
-	while ( ! navigator.IsTaskComplete() ) {
 
-	}
-	// backup of 0.15 m (deafult distance)
-	navigator.Backup();
-	while ( ! navigator.IsTaskComplete() ) {
-
-	}
 
 	// complete here....
 
