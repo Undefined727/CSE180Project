@@ -47,7 +47,7 @@ std::string distance(float x, float y){
 	float rad = radius_pillar * radius_pillar;
 		for(int i = 0; i < 9; i++){
 			float euclidian_dist = (pillar[i][0] - x) * (pillar[i][0] - x) + (pillar[i][1] - y) * (pillar[i][1] - y);
-				if(euclidian_dist <  rad || y > 1.7 || y < -1.7 || x > 2 || x < -2.4 || x > 2.4 || (x < -2 && (y > 1 || y < -1)) || (x > 2 && (y > 1 || y < -1))){
+				if(euclidian_dist <  rad || y > 1.7 || y < -1.7 || x > 1.9 || x < -2.4 || x > 2.4 || (x < -1.9 && (y > 1 || y < -1)) || (x > 1.9 && (y > 1 || y < -1))){
 					match = true;
 				}
 		}
