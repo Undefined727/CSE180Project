@@ -45,6 +45,7 @@ add_executable(testnavigation src/testnavigator.cpp src/navigation.cpp)
 add_executable(receive src/receive.cpp)
 
 ament_target_dependencies(receive rclcpp sensor_msgs)
+ament_target_dependencies(testnavigation rclcpp sensor_msgs)
 
 install(TARGETS receive DESTINATION lib/${PROJECT_NAME})
 

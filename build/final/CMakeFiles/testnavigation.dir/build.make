@@ -94,6 +94,10 @@ testnavigation_EXTERNAL_OBJECTS =
 testnavigation: CMakeFiles/testnavigation.dir/src/testnavigator.cpp.o
 testnavigation: CMakeFiles/testnavigation.dir/src/navigation.cpp.o
 testnavigation: CMakeFiles/testnavigation.dir/build.make
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_c.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 testnavigation: /opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_c.so
 testnavigation: /opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_c.so
 testnavigation: /opt/ros/foxy/lib/liblifecycle_msgs__rosidl_typesupport_introspection_cpp.so
@@ -103,6 +107,7 @@ testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_introspection
 testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_c.so
 testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_introspection_cpp.so
 testnavigation: /opt/ros/foxy/lib/libnav2_msgs__rosidl_typesupport_cpp.so
+testnavigation: /opt/ros/foxy/lib/libsensor_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/liblifecycle_msgs__rosidl_generator_c.so
 testnavigation: /opt/ros/foxy/lib/librclcpp.so
 testnavigation: /opt/ros/foxy/lib/liblibstatistics_collector.so
