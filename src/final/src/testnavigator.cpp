@@ -17,7 +17,6 @@ limitations under the License.
 #include <rclcpp/rclcpp.hpp> 
 #include <final/navigation.hpp>
 #include <iostream>
-#include <math.h>   
 
 #include <sensor_msgs/msg/laser_scan.hpp>
 
@@ -37,7 +36,7 @@ void receiveDistance(const sensor_msgs::msg::LaserScan::SharedPtr msg){
 	min = 99999;
 	std::vector<float> temp = msg->ranges;
 	for(int i = 0; i < 360; i++){
-	if (temp[i] < min) min = temp[i];
+		if (temp[i] < min) min = temp[i];
 	}
 }
 
