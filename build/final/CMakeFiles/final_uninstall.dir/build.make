@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/CSE180Project/src/final
+CMAKE_SOURCE_DIR = /home/sam/CSE180/src/final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/CSE180Project/build/final
+CMAKE_BINARY_DIR = /home/sam/CSE180/build/final
 
 # Utility rule file for final_uninstall.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /root/CSE180Project/build/final
 include CMakeFiles/final_uninstall.dir/progress.make
 
 CMakeFiles/final_uninstall:
-	/usr/bin/cmake -P /root/CSE180Project/build/final/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/sam/CSE180/build/final/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 final_uninstall: CMakeFiles/final_uninstall
 final_uninstall: CMakeFiles/final_uninstall.dir/build.make
@@ -71,6 +71,6 @@ CMakeFiles/final_uninstall.dir/clean:
 .PHONY : CMakeFiles/final_uninstall.dir/clean
 
 CMakeFiles/final_uninstall.dir/depend:
-	cd /root/CSE180Project/build/final && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/CSE180Project/src/final /root/CSE180Project/src/final /root/CSE180Project/build/final /root/CSE180Project/build/final /root/CSE180Project/build/final/CMakeFiles/final_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/CSE180/build/final && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/CSE180/src/final /home/sam/CSE180/src/final /home/sam/CSE180/build/final /home/sam/CSE180/build/final /home/sam/CSE180/build/final/CMakeFiles/final_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/final_uninstall.dir/depend
 

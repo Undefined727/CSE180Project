@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/CSE180Project/src/final
+CMAKE_SOURCE_DIR = /home/sam/CSE180/src/final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/CSE180Project/build/final
+CMAKE_BINARY_DIR = /home/sam/CSE180/build/final
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -137,9 +137,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles /root/CSE180Project/build/final/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles /home/sam/CSE180/build/final/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

@@ -44,10 +44,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/CSE180Project/src/final
+CMAKE_SOURCE_DIR = /home/sam/CSE180/src/final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/CSE180Project/build/final
+CMAKE_BINARY_DIR = /home/sam/CSE180/build/final
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -80,14 +80,14 @@ clean: CMakeFiles/uninstall.dir/clean
 CMakeFiles/receive.dir/all:
 	$(MAKE) -f CMakeFiles/receive.dir/build.make CMakeFiles/receive.dir/depend
 	$(MAKE) -f CMakeFiles/receive.dir/build.make CMakeFiles/receive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=3,4 "Built target receive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=3,4 "Built target receive"
 .PHONY : CMakeFiles/receive.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/receive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/receive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 .PHONY : CMakeFiles/receive.dir/rule
 
 # Convenience name for target.
@@ -107,14 +107,14 @@ CMakeFiles/receive.dir/clean:
 CMakeFiles/testnavigation.dir/all:
 	$(MAKE) -f CMakeFiles/testnavigation.dir/build.make CMakeFiles/testnavigation.dir/depend
 	$(MAKE) -f CMakeFiles/testnavigation.dir/build.make CMakeFiles/testnavigation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=5,6,7 "Built target testnavigation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=5,6,7 "Built target testnavigation"
 .PHONY : CMakeFiles/testnavigation.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/testnavigation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/testnavigation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 .PHONY : CMakeFiles/testnavigation.dir/rule
 
 # Convenience name for target.
@@ -134,14 +134,14 @@ CMakeFiles/testnavigation.dir/clean:
 CMakeFiles/final.dir/all:
 	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/depend
 	$(MAKE) -f CMakeFiles/final.dir/build.make CMakeFiles/final.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=1,2 "Built target final"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=1,2 "Built target final"
 .PHONY : CMakeFiles/final.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/final.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 2
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/final.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 .PHONY : CMakeFiles/final.dir/rule
 
 # Convenience name for target.
@@ -161,14 +161,14 @@ CMakeFiles/final.dir/clean:
 CMakeFiles/final_uninstall.dir/all:
 	$(MAKE) -f CMakeFiles/final_uninstall.dir/build.make CMakeFiles/final_uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/final_uninstall.dir/build.make CMakeFiles/final_uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num= "Built target final_uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num= "Built target final_uninstall"
 .PHONY : CMakeFiles/final_uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/final_uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/final_uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 .PHONY : CMakeFiles/final_uninstall.dir/rule
 
 # Convenience name for target.
@@ -188,14 +188,14 @@ CMakeFiles/final_uninstall.dir/clean:
 CMakeFiles/uninstall.dir/all: CMakeFiles/final_uninstall.dir/all
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/depend
 	$(MAKE) -f CMakeFiles/uninstall.dir/build.make CMakeFiles/uninstall.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num= "Built target uninstall"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num= "Built target uninstall"
 .PHONY : CMakeFiles/uninstall.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/uninstall.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/uninstall.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /root/CSE180Project/build/final/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/sam/CSE180/build/final/CMakeFiles 0
 .PHONY : CMakeFiles/uninstall.dir/rule
 
 # Convenience name for target.

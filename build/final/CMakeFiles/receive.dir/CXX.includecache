@@ -6,6 +6,16 @@
 
 #IncludeRegexTransform: 
 
+/home/sam/CSE180/src/final/src/receive.cpp
+rclcpp/rclcpp.hpp
+-
+sensor_msgs/msg/laser_scan.hpp
+-
+vector
+-
+iostream
+-
+
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__builder.hpp
 builtin_interfaces/msg/detail/duration__struct.hpp
 /opt/ros/foxy/include/builtin_interfaces/msg/detail/builtin_interfaces/msg/detail/duration__struct.hpp
@@ -3977,14 +3987,4 @@ tracetools/visibility_control.hpp
 /opt/ros/foxy/include/tracetools/tracetools/visibility_control.hpp
 
 /opt/ros/foxy/include/tracetools/visibility_control.hpp
-
-/root/CSE180Project/src/final/src/receive.cpp
-rclcpp/rclcpp.hpp
--
-sensor_msgs/msg/laser_scan.hpp
--
-vector
--
-iostream
--
 

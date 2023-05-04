@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /root/CSE180Project/src/final
+CMAKE_SOURCE_DIR = /home/sam/CSE180/src/final
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /root/CSE180Project/build/final
+CMAKE_BINARY_DIR = /home/sam/CSE180/build/final
 
 # Include any dependencies generated for this target.
 include CMakeFiles/final.dir/depend.make
@@ -58,17 +58,17 @@ include CMakeFiles/final.dir/progress.make
 include CMakeFiles/final.dir/flags.make
 
 CMakeFiles/final.dir/src/navigation.cpp.o: CMakeFiles/final.dir/flags.make
-CMakeFiles/final.dir/src/navigation.cpp.o: /root/CSE180Project/src/final/src/navigation.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/final.dir/src/navigation.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/final.dir/src/navigation.cpp.o -c /root/CSE180Project/src/final/src/navigation.cpp
+CMakeFiles/final.dir/src/navigation.cpp.o: /home/sam/CSE180/src/final/src/navigation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/final.dir/src/navigation.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/final.dir/src/navigation.cpp.o -c /home/sam/CSE180/src/final/src/navigation.cpp
 
 CMakeFiles/final.dir/src/navigation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/final.dir/src/navigation.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /root/CSE180Project/src/final/src/navigation.cpp > CMakeFiles/final.dir/src/navigation.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/sam/CSE180/src/final/src/navigation.cpp > CMakeFiles/final.dir/src/navigation.cpp.i
 
 CMakeFiles/final.dir/src/navigation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/final.dir/src/navigation.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /root/CSE180Project/src/final/src/navigation.cpp -o CMakeFiles/final.dir/src/navigation.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/sam/CSE180/src/final/src/navigation.cpp -o CMakeFiles/final.dir/src/navigation.cpp.s
 
 # Object files for target final
 final_OBJECTS = \
@@ -80,7 +80,7 @@ final_EXTERNAL_OBJECTS =
 libfinal.a: CMakeFiles/final.dir/src/navigation.cpp.o
 libfinal.a: CMakeFiles/final.dir/build.make
 libfinal.a: CMakeFiles/final.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/root/CSE180Project/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfinal.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/sam/CSE180/build/final/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libfinal.a"
 	$(CMAKE_COMMAND) -P CMakeFiles/final.dir/cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/final.dir/link.txt --verbose=$(VERBOSE)
 
@@ -94,6 +94,6 @@ CMakeFiles/final.dir/clean:
 .PHONY : CMakeFiles/final.dir/clean
 
 CMakeFiles/final.dir/depend:
-	cd /root/CSE180Project/build/final && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /root/CSE180Project/src/final /root/CSE180Project/src/final /root/CSE180Project/build/final /root/CSE180Project/build/final /root/CSE180Project/build/final/CMakeFiles/final.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/sam/CSE180/build/final && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/sam/CSE180/src/final /home/sam/CSE180/src/final /home/sam/CSE180/build/final /home/sam/CSE180/build/final /home/sam/CSE180/build/final/CMakeFiles/final.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/final.dir/depend
 

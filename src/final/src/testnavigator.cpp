@@ -20,16 +20,17 @@ limitations under the License.
 #include <math.h>   
 
 #include <sensor_msgs/msg/laser_scan.hpp>
+
 #include <vector>
 #include <string>
 
 rclcpp::Node::SharedPtr nodeh;
 std::vector<float> tempDistance = std::vector<float>();
-float[
+
 float min = -1;
 
 float mins[17]= {1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1};
-float points[17][2] = {{1,6, -1.6}, {0.6, -1.8}, {0, -2.4}, {-0.6, -1.8}, {-1.6, -1.6}, {-1.8, -0.8}, {-0.5, -0.5}, {0.5, -0.5}, {1.8, -0.8}, {1.8, 0.8}, {0.5, 0.5}, {-0.5, 0.5}, {-1.8, 0.8}, {-1.5, 1.5}, {-0.5, 1.75}, {0.5, 1.75}, {1.5, 1.5}}
+float points[17][2] = {{1.6, -1.6}, {0.6, -1.8}, {0, -2.4}, {-0.6, -1.8}, {-1.6, -1.6}, {-1.8, -0.8}, {-0.5, -0.5}, {0.5, -0.5}, {1.8, -0.8}, {1.8, 0.8}, {0.5, 0.5}, {-0.5, 0.5}, {-1.8, 0.8}, {-1.5, 1.5}, {-0.5, 1.75}, {0.5, 1.75}, {1.5, 1.5}};
 
 
 void receiveDistance(const sensor_msgs::msg::LaserScan::SharedPtr msg){
@@ -42,9 +43,16 @@ void receiveDistance(const sensor_msgs::msg::LaserScan::SharedPtr msg){
 
 
 int main(int argc,char **argv) {
-
-	nodeh = rclcpp::Node::make_shared("receieve");
 	rclcpp::init(argc,argv); // initialize ROS 
+	
+	std::cout << "test";
+
+	
+	nodeh = rclcpp::Node::make_shared("receieve");
+	geometry_msgs::msg::Pose::SharedPtr init = std::make_shared<geometry_msgs::msg::Pose>();
+	geometry_msgs::msg::Pose::SharedPtr goal_pos = std::make_shared<geometry_msgs::msg::Pose>();
+	std::cout << "test";
+	rclcpp::spin(nodeh);
 	Navigator navigator(true,false); // create node with debug info but not verbose
 
 	auto sub1 = nodeh->create_subscription<sensor_msgs::msg::LaserScan>
@@ -52,10 +60,11 @@ int main(int argc,char **argv) {
 	rclcpp::spin(nodeh);
 
 	// first: it is mandatory to initialize the pose of the robot
-	geometry_msgs::msg::Pose::SharedPtr init = std::make_shared<geometry_msgs::msg::Pose>();
+	std::cout << "test";
 	init->position.x = -2;
 	init->position.y = -0.5;
 	init->orientation.w = 1;
+	
 	navigator.SetInitialPose(init);
 	// wait for navigation stack to become operationale
 	navigator.WaitUntilNav2Active();
@@ -66,11 +75,13 @@ int main(int argc,char **argv) {
 	
 	
 	
-	geometry_msgs::msg::Pose::SharedPtr goal_pos = std::make_shared<geometry_msgs::msg::Pose>();
+	
+	std::cout << "test";
 	
 	for(int i = 0; i < 17; i++) {
 		while ( ! navigator.IsTaskComplete() ) {
 		// busy waiting for task to be completed	
+		
 		}
 		
 		goal_pos->position.x = points[i][0];
@@ -78,9 +89,10 @@ int main(int argc,char **argv) {
 		goal_pos->orientation.w = 1;
 		
 		rclcpp::spin(nodeh);
+		std::string returnedString = "Found new min at point " + std::to_string(i) + ", value " + std::to_string(min) + ".";
 		
 		if(min < mins[i]) {
-			rclpp_info(this->get_logger(), "Found new min at point " + i + ", value " + min + ".");
+			std::cout << returnedString;
 		}
 		// move to new pose
 		navigator.GoToPose(goal_pos);

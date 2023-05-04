@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/CSE180Project/src/final/src/navigation.cpp" "/root/CSE180Project/build/final/CMakeFiles/final.dir/src/navigation.cpp.o"
+  "/home/sam/CSE180/src/final/src/navigation.cpp" "/home/sam/CSE180/build/final/CMakeFiles/final.dir/src/navigation.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,7 +17,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/root/CSE180Project/src/final/include"
+  "/home/sam/CSE180/src/final/include"
   "/opt/ros/foxy/include"
   )
 

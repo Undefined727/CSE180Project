@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/root/CSE180Project/src/final/src/receive.cpp" "/root/CSE180Project/build/final/CMakeFiles/receive.dir/src/receive.cpp.o"
+  "/home/sam/CSE180/src/final/src/receive.cpp" "/home/sam/CSE180/build/final/CMakeFiles/receive.dir/src/receive.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
